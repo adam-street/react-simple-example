@@ -1,9 +1,5 @@
-const foo = {
-    bar: 'baz',
-    number: 42
-}
+const foo = [1,2,3,4]
 
-const {bar, number} = foo;
+const bar = [...foo, 5, 6, 7]
 
-console.log(bar);
-console.log(number);
+console.log(bar)
